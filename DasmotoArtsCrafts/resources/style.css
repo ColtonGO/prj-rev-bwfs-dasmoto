@@ -1,0 +1,46 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.body strong {
+  color: blue;
+}
+
+/* This was my first method of making the pricing text blue and bold but I was thinking if they wanted more pages with bold font that wasn't blue, the active method I have used would make more sense?
+Would using classes in this situation be good practice for future expansion or should one always just keep it to the minimum code required for the desired result?
+Also, please let me know if leaving questions in my code is a faux pas...
+
+strong {
+  font-weight: bold;
+  color: blue;
+}
+*/
+
+#title {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  text-align: center;
+}
+
+#brushes {
+  background-color: mediumspringgreen;
+}
+
+#frames {
+  background-color: lightcoral;
+}
+
+#paint {
+  background-color: skyblue;
+}
